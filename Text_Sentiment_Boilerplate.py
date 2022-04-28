@@ -3,8 +3,8 @@ import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-sentence = ["I am happy to meet my friends. We are planning to go a party.", 
-            "I had a bad day at school. i got hurt while playing football"]
+sentence = ["Estou feliz em encontrar meus amigos. Estamos planejando ir a uma festa.", 
+            "Eu tive um dia ruim na escola. Eu me machuquei jogando futebol."]
 
 # Tokenização
 
